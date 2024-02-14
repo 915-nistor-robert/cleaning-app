@@ -1,46 +1,31 @@
-# Getting Started with Create React App
+# Cleaning App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React app with typescript that displays a the possible design for an Cleaning Service including a homepage.
 
-## Available Scripts
+# Getting Started
 
-In the project directory, you can run:
+To get started, you can clone this repository and then install the dependencies:
 
-### `npm start`
+```
+git clone https://github.com/915-nistor-robert/cleaning-app.git
+cd cleaning-app
+npm install
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Once the dependencies are installed, you can start the development server:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The node version I used for this project is 17.9.1
 
-### `npm test`
+```
+npm start
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This will start the app in development mode and open it in your default browser at http://localhost:3000. Any changes
+you make to the code will automatically reload the page.
 
-### `npm run build`
+# Implementation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+I choose to use React with typescript and sass for this project because I am most familiar with them and I think they
+are the best tools for this project. I used React because it is a very popular framework and it is very easy to use and
+to learn. I used typescript because it is a very good tool for type checking and it is very easy to use. I used sass
+because it is a very good tool for styling and think that it can make the styling process a lot more structured.
