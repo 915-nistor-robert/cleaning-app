@@ -1,0 +1,137 @@
+@import "../../utils/variables.scss";
+
+.search-component-container {
+  display: flex;
+  flex-direction: column;
+  color: $white;
+  width: 100%;
+  background-color: $white;
+  font-family: $prompt;
+
+}
+
+
+.header-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $white;
+  height: 120px;
+
+  p {
+    margin: 0 30px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    user-select: none;
+    font-weight: 600;
+    color: $baby-blue;
+  }
+}
+
+.navigation-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.hamburger-menu{
+    display: none;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 471px;
+  background-image: url("../../assets/cleaning-header-background.png");
+  background-repeat: no-repeat;
+  background-size: 100% 471px;
+}
+
+.cleaning-slogan {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.search-input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+
+  margin-bottom: 20px;
+
+  .search-input {
+    width: 50%;
+
+    input {
+      width: 100%;
+      height: 60px;
+      border: none;
+      border-radius: 20px;
+      padding: 0 20px;
+      font-size: 18px;
+      font-family: $prompt;
+      outline: none;
+      margin-right: 20px;
+    }
+
+    ul {
+      text-align: left;
+      color: $black;
+      list-style: none;
+      padding: 0;
+      margin-top: -15px;
+      position: absolute;
+      background: $white;
+      width: 50%;
+      border-radius: 0 0 20px 20px;
+      z-index: 100;
+
+      li {
+        padding: 20px;
+        cursor: pointer;
+        transition: all ease 0.3s;
+
+        &:hover {
+          background: $light-grey;
+        }
+      }
+    }
+  }
+}
+
+.search-button-container {
+  width: 120px;
+  height: 60px;
+}
+
+.reset-location-icon {
+  width: 60px;
+  height: 60px;
+  margin-right: -60px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1250px) {
+  .navigation-container {
+    display: none
+  }
+
+  .hamburger-menu{
+    display: block;
+    margin-right: 40px;
+    cursor: pointer;
+  }
+
+
+}
+

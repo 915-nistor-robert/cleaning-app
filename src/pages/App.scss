@@ -1,5 +1,13 @@
+@import "../utils/variables.scss";
+
 .App {
   text-align: center;
+  height: 100%;
+  font-family: $prompt;
+}
+
+p{
+  margin: 0;
 }
 
 .App-logo {
